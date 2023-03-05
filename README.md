@@ -14,7 +14,7 @@ $ docker compose up -d postgres
 b.
 ```bash
 $ ./mvnw clean install #linux/macOS
- $ mvnw.cmd clean install #windows 
+ $ mvnw.cmd clean install #windows
 ```
 c.
 ```bash
