@@ -1,0 +1,20 @@
+version: '3.8'
+services:
+  postgres:
+    image: postgres:14.4-alpine
+    healthcheck:
+      test: ["CMD", "pg_isready", "-q", "-d", "docker", "-U", "docker"]
+      timeout: 20s
+      interval: 5s
+      retries: 5
+    restart: always
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - DB_USER=docker
+      - DB_PASSWORD=docker
+      - DB_NAME=stock
+    volumes:
+      - ./db:/docker-entrypoint-initdb.d/
+    ports:
+      - '5432:5435'
