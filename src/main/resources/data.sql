@@ -4,7 +4,7 @@ VALUES ('Test_Role', 'Test_Login', 'Test_Email', 'Test_Password');
 INSERT INTO visitor(login, name, phoneNumber)
 VALUES ('Test_Login', 'Test_Name', 'Test_PhoneNumber');
 
-INSERT INTO service(name, price)
+INSERT INTO order(name, price)
 VALUES ('service1', '1000'),
        ('service2', '1200'),
        ('service3', '950'),
