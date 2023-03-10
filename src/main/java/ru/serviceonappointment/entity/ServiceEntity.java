@@ -20,8 +20,8 @@ public class OrderEntity {
     @Column(name = "id", nullable = false)
     private Long id;
 
-    @Column(name = "nameService", nullable = false)
-    private String nameService;
+    @Column(name = "nameOrder", nullable = false)
+    private String nameOrder;
 
     @Column(name = "price", nullable = false)
     private int price;
