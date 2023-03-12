@@ -1,11 +1,10 @@
 package ru.serviceonappointment.entity;
 
+import javax.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-
-import javax.persistence.*;
 
 /**
  * @author Savchenko on 08.03.2023
