@@ -1,13 +1,16 @@
 INSERT INTO person(role,login, email, password)
 VALUES ('Test_Role', 'Test_Login', 'Test_Email', 'Test_Password');
 
-INSERT INTO visitor(login, name, phoneNumber)
-VALUES ('Test_Login', 'Test_Name', 'Test_PhoneNumber');
+INSERT INTO visitor(login, name, email, phone_number)
+VALUES ('Test_Login', 'Test_Name', 'test@mail.ru', 'Test_PhoneNumber');
 
-INSERT INTO order(name, price)
-VALUES ('service1', '1000'),
-       ('service2', '1200'),
-       ('service3', '950'),
-       ('service4', '600'),
-       ('service5', '1500'),
-       ('service6', '1750');
+INSERT INTO ordertask(nameorder, price)
+VALUES ('order1', 500),
+       ('order2', 1500),
+       ('order3', 200),
+       ('order4', 2000),
+       ('order5', 2500),
+       ('order6', 2300),
+       ('order7', 800),
+       ('order8', 1900),
+       ('order9', 900);
