@@ -13,7 +13,7 @@ services:
       - POSTGRES_PASSWORD=postgres
       - DB_USER=docker
       - DB_PASSWORD=docker
-      - DB_NAME=stock
+      - DB_NAME=appointment
     volumes:
       - ./db:/docker-entrypoint-initdb.d/
     ports:
