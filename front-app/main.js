@@ -1,4 +1,3 @@
-
 Vue.component('message-row', {
     props: ['message'],
     template: '<div><i>({{ message.id }})</i>{{ message.text}}</div>',
