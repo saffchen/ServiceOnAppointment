@@ -9,14 +9,12 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>ru.serviceonappointment</groupId>
-    <artifactId>ServiceOnAppointment</artifactId>
+    <artifactId>Java-CRM-System</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>ServiceOnAppointment</name>
     <description>ServiceOnAppointment</description>
 
     <properties>
-        <start-class>serviceonappointment.ServiceOnAppointmentApplication</start-class>
-        <!-- dependency versions -->
         <org.glassfish>4.0.2</org.glassfish>
         <org.postgresql>42.2.27</org.postgresql>
         <org.projectlombok>1.18.26</org.projectlombok>
@@ -35,7 +33,6 @@
     </properties>
 
     <dependencies>
-
         <dependency>
             <groupId>org.glassfish</groupId>
             <artifactId>jakarta.el</artifactId>
