@@ -1,5 +1,5 @@
-INSERT INTO person(role,login, email, password)
-VALUES ('Test_Role', 'Test_Login', 'Test_Email', 'Test_Password');
+INSERT INTO person(role,login, email, password, active)
+VALUES ('Test_Role', 'Test_Login', 'Test_Email', 'Test_Password', 'true');
 
 INSERT INTO visitor(login, name, email, phone_number)
 VALUES ('Test_Login', 'Test_Name', 'test@mail.ru', 'Test_PhoneNumber');
