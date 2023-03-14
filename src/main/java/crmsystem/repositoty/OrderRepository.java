@@ -1,8 +1,8 @@
-package ru.serviceonappointment.repositoty;
+package crmsystem.repositoty;
 
+import crmsystem.entity.OrderEntity;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
-import ru.serviceonappointment.entity.OrderEntity;
 
 import java.util.Optional;
 

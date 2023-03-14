@@ -1,12 +1,11 @@
-package ru.serviceonappointment.service;
+package crmsystem.service;
 
+import crmsystem.entity.OrderEntity;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import ru.serviceonappointment.entity.OrderEntity;
-import ru.serviceonappointment.exception.NoEntityException;
-import ru.serviceonappointment.repositoty.OrderRepository;
+import crmsystem.exception.NoEntityException;
+import crmsystem.repositoty.OrderRepository;
 
 import java.util.List;
 

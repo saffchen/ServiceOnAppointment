@@ -1,9 +1,9 @@
-package ru.serviceonappointment.mapper;
+package crmsystem.mapper;
 
+import crmsystem.dto.OrderDto;
+import crmsystem.entity.OrderEntity;
 import org.mapstruct.InjectionStrategy;
 import org.mapstruct.Mapper;
-import ru.serviceonappointment.dto.OrderDto;
-import ru.serviceonappointment.entity.OrderEntity;
 
 /**
  * @author Savchenko on 10.03.2023

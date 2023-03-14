@@ -1,4 +1,4 @@
-package ru.serviceonappointment.dto;
+package crmsystem.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

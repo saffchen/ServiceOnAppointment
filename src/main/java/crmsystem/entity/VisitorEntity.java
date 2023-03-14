@@ -1,4 +1,4 @@
-package ru.serviceonappointment.entity;
+package crmsystem.entity;
 
 import lombok.*;
 

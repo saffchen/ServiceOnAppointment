@@ -1,4 +1,4 @@
-package ru.serviceonappointment.controller.order;
+package crmsystem.controller.order;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.MediaType;
@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import ru.serviceonappointment.dto.OrderDto;
-import ru.serviceonappointment.entity.OrderEntity;
+import crmsystem.dto.OrderDto;
+import crmsystem.entity.OrderEntity;
 
 import java.util.List;
 

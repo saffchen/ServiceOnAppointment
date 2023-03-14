@@ -1,4 +1,4 @@
-package ru.serviceonappointment.exception;
+package crmsystem.exception;
 
 /**
  * @author Savchenko on 10.03.2023

@@ -1,9 +1,9 @@
-package ru.serviceonappointment.controller.order;
+package crmsystem.controller.order;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import ru.serviceonappointment.mapper.OrderMapper;
-import ru.serviceonappointment.service.OrderService;
+import crmsystem.mapper.OrderMapper;
+import crmsystem.service.OrderService;
 
 /**
  * @author Savchenko on 10.03.2023
